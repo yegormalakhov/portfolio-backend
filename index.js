@@ -16,7 +16,7 @@ app.use("/contact", contactRouter);
 app.use("/stack", stackRouter);
 app.use("/projects", projectsRouter);
 app.get("/", (req, res) => {
-  res.send("ok");
+  res.send("server is running");
 });
 
 app.listen(PORT, () => {
